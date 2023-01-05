@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap');
+/*STYLE GUIDE*/
+:root {
+    --c12: #000;
+    --c11: #111;
+    --c10: #2e2e2e;
+    --c9: #404040;
+    --c8: #595959;
+    --c7: #717171;
+    --c6: #9C9C9C;
+    --c5: #b2b2b2;
+    --c4: #CCC;
+    --c3: #DEDEDE;
+    --c2: #ededed;
+    --c1: #f7f7f7;
+    --c0: #fff;
+
+    --p5: #332200;
+    --p4: #664400;
+    --p3: #a66f00;
+    --p2: #e4a30b;
+    --p1: #ffbb00;
+}
+
+/*COLORS*/
+.cor-0 {color: var(--c0);}
+.cor-1 {color: var(--c1);}
+.cor-2 {color: var(--c2);}
+.cor-3 {color: var(--c3);}
+.cor-4 {color: var(--c4);}
+.cor-5 {color: var(--c5);}
+.cor-6 {color: var(--c6);}
+.cor-7 {color: var(--c7);}
+.cor-8 {color: var(--c8);}
+.cor-9 {color: var(--c9);}
+.cor-10 {color: var(--c10);}
+.cor-11 {color: var(--c11);}
+.cor-12 {color: var(--c12);}
+
+.cor-p1 {color: var(--p1);}
+.cor-p2 {color: var(--p2);}
+.cor-p3 {color: var(--p3);}
+.cor-p4 {color: var(--p4);}
+.cor-p5 {color: var(--p5);}
+
+/* RESET CSS */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    padding-bottom: 600px;
+    color: #111;
+}
+
+h1, h2, h3, h4, ul, p, blockquote {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
