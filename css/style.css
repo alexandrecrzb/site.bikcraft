@@ -1,5 +1,7 @@
+/*GLOBAL*/
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /*HOME*/
 @import "./home/intro.css";
@@ -7,7 +9,7 @@
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 
-/*UTILS/COMPONENTS*/
+/*UTILS*/
 @import "./utils/componentes.css";
 @import "./utils/tipografia.css";
 
